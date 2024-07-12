@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    height:10vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:  #4dd7e9;
+    
+    width : 100%;
+
+    
+}
+.navbar .index, .project {
+    height: 2rem;
+   
+    position: relative;
+    margin-right: 3rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.navbar .logo{
+    font-size:2.5rem;
+    font-family: Quintessential;
+    position:absolute;
+    left:40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+}
+
+.navbar div :hover{
+    border:2px solid black;
+}
+
+.hero{
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6fd3e0;
+    height: 95vh;
+    
+    
+}
+.hero .text{
+    width:20rem;
+    text-align: center;
+    height:auto;
+    
+}
+.photo{
+    border-radius: 50%;
+    width:20rem;
+    background-color: white;
+    height:20rem;
+    background-image: url("./photo.jpeg");
+    background-size:cover;
+    background-position: center center;
+}
+
+.text h1{
+    color:#220CA0;
+    font-size: 4rem;
+    font-family: Antic Didone;
+    margin:10px 0px;
+    
+}
+
+ /* skills*/
+.skills{
+    text-align: center;
+    height:50vh;
+}
+.skills h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skills .box {
+    
+    margin :10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills li{
+    text-align: left;
+    padding: 10px 0;
+    font-size: 20px;
+
+}
+
+.contact{
+    height: 40vh;
+    text-align: center;
+    background-color: #06B2C2;
+
+}
+
+.contact h1{
+    padding-top:30px;
+}
+.contact ul{
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+    gap:3rem;
+    list-style-type:none;
+}
+
+.contact i:hover{
+    border:2px solid white;
+}
+
+.contact li a{
+    text-decoration: none;
+    color: black;
+    
+ }
+ .contact i{
+    font-size: 2em;
+ }
+
+
+@media (max-width:630px){
+    .hero {
+        flex-direction: column;
+    }
+}
+    
+
+/* projects */
+
+.container{
+    height:70vh;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.container a{
+   text-decoration: none;
+   font-size: 3rem;
+   padding: 2rem 0;
+  
+   
+}
+ .container > div{
+   height:50vh;
+   width:70%;
+   background-size:cover;
+   background-position: top center ;
+   border-radius: 3rem;
+ }
+ #tindog{
+    background-image: url("./TinDog.png");
+ }
+ #dice{
+    background-image: url("./dice.png");
+    background-position: bottom center;
+ }
+ #drum-kit{
+    background-image: url("./drum.png");
+ }
+ #simon{
+    background-image: url("./simon.png");
+ }
+
+
