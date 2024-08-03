@@ -42,7 +42,7 @@
 .hero{
     
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #6fd3e0;
     height: 95vh;
@@ -50,17 +50,21 @@
     
 }
 .hero .text{
-    width:20rem;
+    width:30rem;
     text-align: center;
     height:auto;
     
+}
+.text p{
+    font-size: 1.5rem;
+    text-align: left;
 }
 .photo{
     border-radius: 50%;
     width:20rem;
     background-color: white;
     height:20rem;
-    background-image: url("./photo.jpeg");
+    background-image: url("./images/photo.jpeg");
     background-size:cover;
     background-position: center center;
 }
@@ -164,17 +168,22 @@
    border-radius: 3rem;
  }
  #tindog{
-    background-image: url("./TinDog.png");
+    background-image: url("./images/TinDog.png");
  }
  #dice{
-    background-image: url("./dice.png");
+    background-image: url("./images/dice.png");
     background-position: bottom center;
  }
  #drum-kit{
-    background-image: url("./drum.png");
+    background-image: url("./images/drum.png");
  }
  #simon{
-    background-image: url("./simon.png");
+    background-image: url("./images/simon.png");
+ }
+
+ h3{
+    text-align: center;
+    margin:2rem 0;
  }
 
 
